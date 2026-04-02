@@ -8,7 +8,6 @@ __pycache__/
 
 # Credentials & secrets
 cert-generator/cert-generator-489902-3a1853061a9c.json
-cert-generator/config.json
 
 # Output
 cert-generator/output/

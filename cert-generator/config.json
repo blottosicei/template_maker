@@ -1,0 +1,57 @@
+{
+  "template": {
+    "name": "genogram_certificate_template_03",
+    "image_path": "../genogram_certificate_template_03.png",
+    "output_dir": "output",
+    "output_format": "png",
+    "output_filename": "{발급번호}_{성명}"
+  },
+  "fonts": {
+    "label": {
+      "path": "fonts/본명조.otf",
+      "size": 55,
+      "color": [80, 80, 80]
+    },
+    "value": {
+      "path": "fonts/본명조.otf",
+      "size": 55,
+      "color": [60, 60, 60]
+    },
+    "issue_label": {
+      "path": "fonts/본명조.otf",
+      "size": 40,
+      "color": [80, 80, 80]
+    },
+    "issue_value": {
+      "path": "fonts/본명조.otf",
+      "size": 40,
+      "color": [80, 80, 80]
+    }
+  },
+  "static_texts": [
+    { "text": "발급번호 :", "x": 270, "y": 210, "font_key": "issue_label" },
+    { "text": "성     명 :", "x": 270, "y": 1355, "font_key": "label" },
+    { "text": "기     간 :", "x": 270, "y": 1450, "font_key": "label" },
+    { "text": "이수시간 :", "x": 270, "y": 1545, "font_key": "label" },
+    { "text": "4시간", "x": 580, "y": 1545, "font_key": "value" },
+    { "text": "진행강사 :", "x": 270, "y": 1640, "font_key": "label" },
+    { "text": "이인수 (한국상담학회 1급 전문영역 수련감독자 194)", "x": 580, "y": 1640, "font_key": "value" }
+  ],
+  "dynamic_fields": {
+    "발급번호": {
+      "x": 480,
+      "y": 210,
+      "font_key": "issue_value"
+    },
+    "성명": {
+      "x": 580,
+      "y": 1355,
+      "font_key": "value"
+    },
+    "기간": {
+      "x": 580,
+      "y": 1450,
+      "font_key": "value"
+    }
+  }
+}
