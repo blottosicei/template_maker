@@ -7,7 +7,17 @@ __pycache__/
 *.pyc
 
 # Credentials & secrets
-cert-generator/cert-generator-489902-3a1853061a9c.json
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+cert-generator/*-*.json
+!cert-generator/service-account.example.json
+
+# Data (PII)
+cert-generator/data/
 
 # Output
 cert-generator/output/
